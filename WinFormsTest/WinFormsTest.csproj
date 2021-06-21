@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net40</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HZH_Controls" Version="1.0.14" />
+    <PackageReference Include="SunnyUI" Version="3.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FarPoint.Win">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\FarPoint Technologies\Spread.WinForms.3.VS2005\v3.0.2004\Bin\FarPoint.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Win.Spread">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\FarPoint Technologies\Spread.WinForms.3.VS2005\v3.0.2004\Bin\FarPoint.Win.Spread.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Win.Spread.Design">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\FarPoint Technologies\Spread.WinForms.3.VS2005\v3.0.2004\Bin\FarPoint.Win.Spread.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.ServiceProcess" />
+  </ItemGroup>
+
+</Project>

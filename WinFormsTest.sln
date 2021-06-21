@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsTest", "WinFormsTest\WinFormsTest.csproj", "{18E0F58D-A0D9-4229-940B-3B7E7DE2A1C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HZH_Controls", "..\HZH_Controls\HZH_Controls.csproj", "{AF32E163-C577-4CBC-A072-0DC1CE0E1DA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18E0F58D-A0D9-4229-940B-3B7E7DE2A1C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E0F58D-A0D9-4229-940B-3B7E7DE2A1C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E0F58D-A0D9-4229-940B-3B7E7DE2A1C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E0F58D-A0D9-4229-940B-3B7E7DE2A1C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF32E163-C577-4CBC-A072-0DC1CE0E1DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF32E163-C577-4CBC-A072-0DC1CE0E1DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF32E163-C577-4CBC-A072-0DC1CE0E1DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF32E163-C577-4CBC-A072-0DC1CE0E1DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B12D7895-2550-442A-BCAB-25167BDF483D}
+	EndGlobalSection
+EndGlobal
